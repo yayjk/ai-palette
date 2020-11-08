@@ -22,13 +22,13 @@ const Recommendations = ({product}) => {
             <ProductsContainer>
                 {
                     listOfProducts.slice(0,3).map(
-                        product => <Product product={product} />
+                        product => <Product key={product.name} product={product} />
                     )
                 }
                 {
                     moreVisibility && 
                         listOfProducts.slice(3,6).map(
-                            product => <Product product={product} />
+                            product => <Product key={product.name} product={product} />
                             )
                 }
             </ProductsContainer>

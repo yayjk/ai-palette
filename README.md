@@ -1,4 +1,4 @@
-***To run the project. Type 'npm start' in the terminal from the current directory (/ai-pallete)***
+***To run the project. Type 'npm install' and then 'npm start' in the terminal from the current directory (/ai-pallete)***
 
 ***The graph is zoomable. Either scroll on the graph, or perform a pinching gesture on the touchpad***
 
