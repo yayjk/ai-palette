@@ -3,9 +3,9 @@ To run the project. Type 'npm start' in the terminal from the current directory 
 The graph is zoomable. Either scroll on the graph, or perform a pinching gesture on the touchpad
 
 Project directory structure
--src
-    -assets (contains dummy json data)
-    -components (contains modular components)
+- src
+    - assets (contains dummy json data)
+    - components (contains modular components)
         - Graph.jsx (Main graph)
         - GraphFilters.jsx (component which has a bunch of filter options)
         - GraphContainer.jsx (A container component for graph and filter)
